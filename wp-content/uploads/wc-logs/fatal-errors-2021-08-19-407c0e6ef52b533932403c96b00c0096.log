@@ -1,0 +1,36 @@
+2021-08-19T11:01:42+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / int in C:\xampp\htdocs\dronelight-wp\wp-content\themes\twentytwenty\functions.php:310
+Stack trace:
+#0 C:\xampp\htdocs\dronelight-wp\wp-includes\class-wp-hook.php(305): twentytwenty_get_custom_logo('<a href="http:/...')
+#1 C:\xampp\htdocs\dronelight-wp\wp-includes\plugin.php(189): WP_Hook->apply_filters('<a href="http:/...', Array)
+#2 C:\xampp\htdocs\dronelight-wp\wp-includes\general-template.php(1107): apply_filters('get_custom_logo', '<a href="http:/...', 0)
+#3 C:\xampp\htdocs\dronelight-wp\wp-content\themes\twentytwenty\inc\template-tags.php(35): get_custom_logo()
+#4 C:\xampp\htdocs\dronelight-wp\wp-content\themes\twentytwenty\classes\class-twentytwenty-customize.php(507): twentytwenty_site_logo()
+#5 C:\xampp\htdocs\dronelight-wp\wp-includes\customize\class-wp-customize-partial.php(221): twentytwenty_customize_partial_site_logo(Object(WP_Customize_Partial), Array)
+#6 C:\xampp\htdocs\dronelight-wp\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#7 C:\xampp\htdocs\dronelight-wp\wp-includes\class-wp-hook.php(303): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#8 C:\xampp\htdocs\dronelight-wp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\dronelight-wp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\dronelight-wp\wp-includes\template-loader.php(13): do_action('template_redire...')
+#11 C:\xampp\htdocs\dronelight-wp\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\dronelight-wp\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\dronelight-wp\wp-content\themes\twentytwenty\functions.php on line 310
+
+2021-08-19T11:01:44+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / int in C:\xampp\htdocs\dronelight-wp\wp-content\themes\twentytwenty\functions.php:310
+Stack trace:
+#0 C:\xampp\htdocs\dronelight-wp\wp-includes\class-wp-hook.php(305): twentytwenty_get_custom_logo('<a href="http:/...')
+#1 C:\xampp\htdocs\dronelight-wp\wp-includes\plugin.php(189): WP_Hook->apply_filters('<a href="http:/...', Array)
+#2 C:\xampp\htdocs\dronelight-wp\wp-includes\general-template.php(1107): apply_filters('get_custom_logo', '<a href="http:/...', 0)
+#3 C:\xampp\htdocs\dronelight-wp\wp-content\themes\twentytwenty\inc\template-tags.php(35): get_custom_logo()
+#4 C:\xampp\htdocs\dronelight-wp\wp-content\themes\twentytwenty\classes\class-twentytwenty-customize.php(507): twentytwenty_site_logo()
+#5 C:\xampp\htdocs\dronelight-wp\wp-includes\customize\class-wp-customize-partial.php(221): twentytwenty_customize_partial_site_logo(Object(WP_Customize_Partial), Array)
+#6 C:\xampp\htdocs\dronelight-wp\wp-includes\customize\class-wp-customize-selective-refresh.php(371): WP_Customize_Partial->render(Array)
+#7 C:\xampp\htdocs\dronelight-wp\wp-includes\class-wp-hook.php(303): WP_Customize_Selective_Refresh->handle_render_partials_request('')
+#8 C:\xampp\htdocs\dronelight-wp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\dronelight-wp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\dronelight-wp\wp-includes\template-loader.php(13): do_action('template_redire...')
+#11 C:\xampp\htdocs\dronelight-wp\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\dronelight-wp\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\dronelight-wp\wp-content\themes\twentytwenty\functions.php on line 310
+
